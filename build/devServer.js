@@ -10,7 +10,7 @@ const host = require('./getHost')
 
 const compiler = webpack({...config, mode: 'development'})
 
-const port = '8058'
+const port = '9046'
 
 const server = new WebpackDevServer(compiler, {
     open: false,

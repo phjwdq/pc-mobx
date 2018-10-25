@@ -12,7 +12,7 @@ module.exports = {
     mode: 'production',
     entry: {
         app: APP_ENV === 'dev'
-            ? ['webpack-dev-server/client?http://0.0.0.0:8058', 'babel-polyfill', './src/index.js']
+            ? ['webpack-dev-server/client?http://0.0.0.0:9046', 'babel-polyfill', './src/index.js']
             : ['babel-polyfill', './src/index.js']
     },
     output: {
